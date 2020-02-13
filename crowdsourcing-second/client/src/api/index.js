@@ -18,4 +18,6 @@ const apis = {
     getVideoById,
 }
 
+console.log(apis)
+
 export default apis
