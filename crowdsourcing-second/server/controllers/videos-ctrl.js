@@ -112,7 +112,7 @@ getVideos = async (req, res) => {
                 .status(404)
                 .json({ success: false, error: `Video not found` })
         }
-        return res.status(200).json({ success: true, data: videos })
+        return res.status(200).json(videos )
     }).catch(err => console.log(err))
 }
 
